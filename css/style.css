@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto:ital@1&display=swap');
+
+body {
+    color: #6081ec;
+    background-color: #5588f838;
+}
+
+h1{
+   font-family: 'Open Sans', sans-serif; 
+   font-size: 85px;
+   text-decoration: underline;
+   text-align: center;
+    
+}
+
+.Projects-Title{
+    font-size: 45px;
+}
+
+.Project-Description{
+    font-family: 'Roboto', sans-serif;
+    text-align: right;
+    box-sizing: border-box;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+ul {
+    list-style-type: circle;
+}
+
+.Software-Developer{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 25px;
+    text-align: center;
+}
+
+.github {
+    color: #FFF;
+    background-color: #5995DA;    /* Blue */
+    font-weight: bold;
+    padding: 20px;
+    text-align: center;
+    border: 2px solid #5D6063;    /* Dark gray */
+    border-radius: 5px;
+  
+    width: 200px;
+    margin: 20px auto;
+  }
+
+  .linkedin {
+    color: #FFF;
+    background-color: #5995DA;    /* Blue */
+    font-weight: bold;
+    padding: 20px;
+    text-align: center;
+    border: 2px solid #5D6063;    /* Dark gray */
+    border-radius: 5px;
+  
+    width: 200px;
+    margin: 20px auto;
+  }
+
+  .github:hover {
+    color: aqua;
+    text-decoration: underline;
+  }
